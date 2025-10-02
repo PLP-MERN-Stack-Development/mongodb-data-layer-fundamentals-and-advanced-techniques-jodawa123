@@ -57,3 +57,29 @@ Complete all the exercises in this assignment and push your code to GitHub using
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+# PLP Bookstore MongoDB Project
+This project demonstrates MongoDB CRUD operations, advanced queries, aggregation pipelines, and indexing for a bookstore database.
+
+## Project Structure
+
+- `insert_books.js` - Script to populate the MongoDB database with sample book data
+- `queries.js` - Contains all MongoDB queries for the assignment tasks
+- `README.md` - This file with setup and execution instructions
+
+## Prerequisites
+
+- MongoDB Community Edition installed locally OR
+- MongoDB Atlas account for cloud deployment
+- Node.js installed (for running the insert script)
+
+## Some screenshots
+![alt text](image.png) quering all fictional books
+![alt text](image-1.png) all books inserted
+
+### Option 1: Local MongoDB Installation
+
+1. Install MongoDB Community Edition from [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community)
+2. Start MongoDB service:
+   ```bash
+   mongod
